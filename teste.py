@@ -33,6 +33,48 @@ soma = x + y
 
 print(x == y and x == z)
 
+# comando else
+
+x = 10 
+y = 2
+
+if x > y:
+	print("x maior que y")
+else:
+	print("x não é maior que y")	
+
+# comando elif
+
+x = 2
+y = 2 
+
+if x == y:
+	print("numeros iguais")
+elif x < y:
+	print("x menor que y")
+elif y > x:
+	print("y maior qie x")
+else:
+	print("numeros diferentes")			
+
+# comando WHILE "comando de repetição"
+
+x = 1
+
+while x < 3:
+	print(x)
+	x += 1 #isso seria tipo x = x + 1
+
+
+# comando FOR "para"
+
+lista1 = [1,2,3,4,5]
+lista2 = ["Olá", "Mundo", "!"]
+lista3 = [0,"Olá","Bolacha","Suco",9.99]
+
+for i in lista3:
+	print(i)
+
 
 """ 
 Operadores Logicos
@@ -43,3 +85,4 @@ Operadores Logicos
 
 
 """
+# Comando usado para criar estruturas condicionais "IF"
