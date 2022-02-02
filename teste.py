@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*- Para aceitar caracteres especiais precisa colocar esse comando.
-# comentario do comentario que foi feito de um comentario
+# comentario do comentario que foi feito de um comentario ;)
 
 print("Aopa!")
 
