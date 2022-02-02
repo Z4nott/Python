@@ -9,7 +9,8 @@ print(1+1)
 print(10%3)
 
 
-# Criando variavel no Python.
+# criando variavel no Python
+
 minha_variavel = "Teste"
 print("Teste")
 print("Teste")
@@ -25,6 +26,7 @@ print(var3)
 print(var4)
 
 # operadores
+
 x = 3
 y = 1
 z = 3
@@ -74,6 +76,86 @@ lista3 = [0,"Olá","Bolacha","Suco",9.99]
 
 for i in lista3:
 	print(i)
+
+# estrutura de repetição (comando FOR e RANGE)
+
+for i in range(10,20,2):
+	print(i)
+
+# exemplo de STINGS
+
+a = "Augusto"
+b = "Cesar"
+
+concatenar = a + " " + b
+print(concatenar)
+tamanho = len(concatenar)
+print(tamanho)
+
+
+#Funções
+
+def soma(x, y):
+	return x+y
+
+def multiplicacao(x, y):
+	return x*y
+
+s = soma(2, 3)
+m = multiplicacao(1, 4)
+
+print(soma(s, m,))
+
+# Lista
+
+minha_lista = ["abacate", "melancia", "abacate"]
+minha_lista_2 = [1,2,3,4,5]	
+minha_lista_3 = ["abacaxi", 2, 9.89, True]
+
+minha_lista_4 = [] #---> lista em branco 
+
+minha_lista_4.append(57)
+print(minha_lista_2) # mudar a lista para imprimir 
+
+lista = [123, 751, 2, 67, 11, 32, 10]
+
+lista.sort(reverse=False) #"reverse" para inverter a ordem / "true" deixa do maior para o menor e "false" deixa na ordem crescente
+print(lista)
+
+# Dicionario
+meu_dicionario = {"A":"AMEIXA", "B":"BOLA", "C":"CACHORRO"}
+
+for i in meu_dicionario.keys():
+	#print(chave+"-"+meu_dicionario[chave])
+	print(i)
+
+# numeros aleatorios
+
+import random
+
+numero = random.randint(0,100)
+print(numero)	
+
+
+
+
+"""
+
+
+
+
+"""
+
+
+
+
+
+
+
+
+
+
+
 
 
 """ 
